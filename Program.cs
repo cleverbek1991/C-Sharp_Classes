@@ -8,12 +8,12 @@ namespace classes
         static void Main(string[] args)
             {
                 Company company = new Company("Microsoft", DateTime.Now);
-                Employee employee1 = new Employee("Adam", "Developer", "July 2");
-                Employee employee2 = new Employee("Jordan", "Developer", "July 2");
-                Employee employee3 = new Employee("Bryan", "Developer", "July 2");
-                company.addEmployee(employee1);
-                company.addEmployee(employee2);
-                company.addEmployee(employee3);
+                Employee washington = new Employee("Washington", "Developer", "January 2");
+                Employee trump = new Employee("Trump", "Designer", "July 2");
+                Employee bush = new Employee("Bush", "Someone", "May 2");
+                company.addEmployee(washington);
+                company.addEmployee(trump);
+                company.addEmployee(bush);
                 company.ListEmployees();
             }
     }
